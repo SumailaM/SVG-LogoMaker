@@ -30,3 +30,7 @@ fs.writeFileSync('logo.svg', captcha.data, 'utf8');
 console.log('Logo saved as logo.svg');
 
 }
+// Ask the User to input Information
+inquirer.prompt(questions).then((answer)=>{
+generateLogo(answer.text, answers.color);
+});
