@@ -30,7 +30,7 @@ fs.writeFileSync('logo.svg', captcha.data, 'utf8');
 console.log('Logo saved as logo.svg');
 
 }
-// Ask the User to input Information/---Not using arrow because it seems to be related to the arrow function syntax,  which is not supported in older versions of Node.js or environments that don't support ES6 (ECMAScript 2015) syntax
+// Ask the User to input Information/-
 inquirer.prompt(questions).then(function (answer) {
 generateLogo(answer.text, answers.color);
 });
