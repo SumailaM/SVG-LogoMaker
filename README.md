@@ -22,7 +22,7 @@ Before you begin, look to make sure you meet the following  requirements:
 
 Installation
 
-To install the SVG Generator, follow these steps: 
+In order to install the SVG Generator, follow these steps: 
 
 1. Clone this repository:
 
