@@ -3,17 +3,6 @@ Svg Generator
 
 Generate SVG graphics with custom colors, shapes, and text.
 
-Table of content
-
-- [Introduction](#introduction) 
-- [Features](#features) 
-- [Prerequisites](#prerequisites) 
-- [Installation](#installation) 
-- [Usage](#usage) 
-- [Options](#options)  
-- [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license) 
 
 -Introduction
 
@@ -34,10 +23,9 @@ Before you begin, ensure you have met the following  requirements:
 
 Installation
 
-To install the SVG Generator, follow these steps: 
+In order to install the SVG Generator, follow these steps: 
 
 1. Clone this repository:
 
-   ```sh
    git clone https://github.com/yourusername/svg-generator.git 
 
