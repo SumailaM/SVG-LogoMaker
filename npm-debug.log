@@ -1,0 +1,64 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'inquirer' ]
+2 info using npm@1.2.23
+3 info using node@v0.10.8
+4 verbose read json /Users/Sumaila/Documents/GitHub/SVG-LogoMaker/package.json
+5 verbose from cache /Users/Sumaila/Documents/GitHub/SVG-LogoMaker/package.json
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'inquirer', null ]
+8 verbose cache add name=undefined spec="inquirer" args=["inquirer",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'inquirer',
+9 verbose parsed url   path: 'inquirer',
+9 verbose parsed url   href: 'inquirer' }
+10 silly lockFile 73679e5a-inquirer inquirer
+11 verbose lock inquirer /Users/Sumaila/.npm/73679e5a-inquirer.lock
+12 silly lockFile 73679e5a-inquirer inquirer
+13 silly lockFile 73679e5a-inquirer inquirer
+14 verbose addNamed [ 'inquirer', '' ]
+15 verbose addNamed [ null, '' ]
+16 silly lockFile 4be038c5-inquirer inquirer@
+17 verbose lock inquirer@ /Users/Sumaila/.npm/4be038c5-inquirer.lock
+18 silly addNameRange { name: 'inquirer', range: '', hasData: false }
+19 verbose url raw inquirer
+20 verbose url resolving [ 'https://registry.npmjs.org/', './inquirer' ]
+21 verbose url resolved https://registry.npmjs.org/inquirer
+22 info trying registry request attempt 1 at 19:49:47
+23 http GET https://registry.npmjs.org/inquirer
+24 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+25 info trying registry request attempt 2 at 19:49:57
+26 http GET https://registry.npmjs.org/inquirer
+27 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+28 info trying registry request attempt 3 at 19:50:58
+29 http GET https://registry.npmjs.org/inquirer
+30 silly lockFile 4be038c5-inquirer inquirer@
+31 silly lockFile 4be038c5-inquirer inquirer@
+32 error Error: CERT_UNTRUSTED
+32 error     at SecurePair.<anonymous> (tls.js:1290:32)
+32 error     at SecurePair.EventEmitter.emit (events.js:92:17)
+32 error     at SecurePair.maybeInitFinished (tls.js:903:10)
+32 error     at CleartextStream.read [as _read] (tls.js:437:15)
+32 error     at CleartextStream.Readable.read (_stream_readable.js:320:10)
+32 error     at EncryptedStream.write [as _write] (tls.js:345:25)
+32 error     at doWrite (_stream_writable.js:219:10)
+32 error     at writeOrBuffer (_stream_writable.js:209:5)
+32 error     at EncryptedStream.Writable.write (_stream_writable.js:180:11)
+32 error     at write (_stream_readable.js:573:24)
+33 error If you need help, you may report this log at:
+33 error     <http://github.com/isaacs/npm/issues>
+33 error or email it to:
+33 error     <npm-@googlegroups.com>
+34 error System Darwin 17.7.0
+35 error command "node" "/usr/local/bin/npm" "install" "inquirer"
+36 error cwd /Users/Sumaila/Documents/GitHub/SVG-LogoMaker
+37 error node -v v0.10.8
+38 error npm -v 1.2.23
+39 verbose exit [ 1, true ]
