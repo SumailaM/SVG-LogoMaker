@@ -12,11 +12,11 @@ const questions = [
     {
         type: 'input',
         name: 'color',
-        message: 'Choose a color(e.g.,#RRGGBB)',
+        message: 'Choose a color(',
     }
 ];
 
-// function to generate and save the logo as an SVG  file
+// This function is used to make and save a svg file
 function generateLogo(text, color) {
     // Generate an SVG based text logo
     const captcha = svgCaptcha.create({
