@@ -1,0 +1,20 @@
+{
+  "name": "SVG-LogoMaker",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SumailaM/SVG-LogoMaker.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "d0c1ca8d083918390f36e99eeaa1427899ef2a39",
+  "bugs": {
+    "url": "https://github.com/SumailaM/SVG-LogoMaker/issues"
+  }
+}
