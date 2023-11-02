@@ -1,9 +1,9 @@
 const inquirer = require('inquirer'); 
-const svgCaptcha = require('svg-captcha'); 
+const svg = require('svg'); 
 const fs = require('fs'); 
 
-// Define a array of questions of questions for user prompts
-const questions = [
+// Define 
+const inquirer = [
     {
         type : 'input',
         name: 'text',
@@ -19,14 +19,14 @@ const questions = [
 // This function is used to make and save a svg file
 function generateLogo(text, color) {
     // Generate an SVG based text logo
-    const captcha = svgCaptcha.create({
+    const captcha = svg.create({
         size: 4,
         noise: 2,
         background: color,
     });
 
     // Save the SVG logo to a file
-fs.writeFileSync('logo.svg', captcha.data, 'utf8');
+fs.writeFileSync('logo.svg', svg.data, 'utf8');
 console.log('Logo saved as logo.svg');
 
 }
